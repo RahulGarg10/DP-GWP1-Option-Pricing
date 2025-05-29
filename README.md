@@ -1,4 +1,14 @@
 # DP-GWP1-Option-Pricing
+
+## Tables
+
+| Left columns  | Right columns |
+| ------------- |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
+
+
 ```mermaid
 graph LR;
 A[a]
