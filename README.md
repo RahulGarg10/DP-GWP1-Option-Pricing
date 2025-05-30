@@ -412,21 +412,9 @@ strike price.
 
 **Price of the European Put Option at K = 110.0 = 9.83**
 
-  ------------------------------------------------------------------------
-  |    Strike Price   | Call Option Price    | Put Option Price   |  Parity|
-  |--- --------------- --------------------- -------------------- ---------
-  |0   90.0            11.67                 0.55                 True
+![alt text](imagess/image7.jpg "Title")
 
-  |1   95.0            7.72                  1.54                 True
-
-  2   100.0           4.61                  3.37                 True
-
-  3   105.0           2.48                  6.18                 True
-
-  4   110.0           1.19                  9.83                 True
-  ------------------------------------------------------------------------
-
-**7. Pricing American options using a trinomial tree:**
+## **7. Pricing American options using a trinomial tree:**
 
 **Given Conditions:**
 
@@ -463,19 +451,8 @@ parameters same. (See the accompanied python file for all below).
 
 **Price of the American Put Option at K = 110.0 = 85.68**
 
-  -----------------------------------------------------------------------
-      Strike Price    Call Option Price    Put Option Price     Parity
-  --- --------------- -------------------- -------------------- ---------
-  0   90.0            11.67                65.68                False
+![alt text](imagess/image8.jpg "Title")
 
-  1   95.0            7.72                 70.68                False
-
-  2   100.0           4.61                 75.68                False
-
-  3   105.0           2.48                 80.68                False
-
-  4   110.0           1.19                 85.68                False
-  -----------------------------------------------------------------------
 
 From the table above, we can see that as the strike price increases the
 price of American Call decreases whereas the price of American Put
@@ -483,7 +460,7 @@ increases. The reason is same as explained in binomial tree model. Also,
 Put-call parity does not holds for the American options at each strike
 price.
 
-**8. Dynamic Delta Hedging For European Put:**
+## **8. Dynamic Delta Hedging For European Put:**
 
 We will now show working of Dynamic Delta Hedging for European put
 seller using the following data:
@@ -500,8 +477,9 @@ K = 182,
 
 N = 3
 
-**5.1 Binomial Tree with 3-Step:**
+### **8.1 Binomial Tree with 3-Step:**
 
+![alt text](imagess/image9.jpg "Title")
 In the above tree, we calculated put price (P), underlying price and
 delta at each node at respective time step. Now, we will show delta
 hedging process by using the path = ${ud}^{2}$ of the tree. The table
@@ -509,23 +487,9 @@ hedging process by using the path = ${ud}^{2}$ of the tree. The table
 
 Delta Hedge for Put-Seller .....table (1)
 
-  ------------------------------------------------------------------------------------------
-  **Path =                       **t = 0**   **t = 1**  **t = 2**  **t = 3**     **Total**
-  u**$\mathbf{d}^{\mathbf{2}}$                                                   
-  ------------------------------ ----------- ---------- ---------- ------------- -----------
-  **Underlying Stock Price**     \$180       \$199.34   \$180      \$162.53      
+![alt text](imagess/image10.jpg "Title")
 
-  **Put Option**                 \$13.82     \$5        \$9.88     \$19.46       
-
-  **Δ Hedge**                    -0.47       -0.24      -0.53                    
-
-  **Stock Portfolio Value**      -\$84.6     -\$38.75   -\$90.95   -\$86.14      
-
-  **Cash Account**               \$84.6      -\$45.85   \$52.20    -\$86.14      -\$14.65
-                                                                   -\$19.46      
-  ------------------------------------------------------------------------------------------
-
-**5.2 Delta Hedging Process:**
+### **8.2 Delta Hedging Process:**
 
 1.  At t = 0, we sell 0.47 shares of the underlying (-0.47 × 180 =
     -\$84.6). We got equivalent (\$84.6) in cash account.
@@ -549,7 +513,7 @@ Delta Hedge for Put-Seller .....table (1)
 5.  So, the total cost of the hedge is -\$14.65 which is close to the
     price of the call option (\$13.82) at t = 0.
 
-**9. References:**
+## **9. References:**
 
 1.  []{#Stoll .anchor}Stoll, Hans R. "THE RELATIONSHIP BETWEEN PUT AND
     CALL OPTION PRICES." The Journal of Finance, vol. 24, no. 5, Wiley,
