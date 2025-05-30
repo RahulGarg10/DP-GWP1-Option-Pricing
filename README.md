@@ -77,7 +77,7 @@ $$\Delta t = T/n = 0.25/100 = 0.0025\ years$$
 
 -   **Up and Down Factors**:
 
-$$u = e^{\sigma\sqrt{}\Delta t} = e^{0.2\sqrt{}0.0025} \approx 1.01\ \ \ \ ;\ \ \ \ d = \frac{1}{u} \approx 0.99$$
+$$u = e^{\sigma\sqrt{\Delta t}} = e^{0.2\sqrt{0.0025}} \approx 1.01\ \ \ \ ;\ \ \ \ d = \frac{1}{u} \approx 0.99$$
 
 -   **Risk-neutral Probability**$\mathbf{(}\mathbf{p}\mathbf{)}$**:**
 
