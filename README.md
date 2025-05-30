@@ -452,6 +452,7 @@ N = 3
 ### **8.1 Binomial Tree with 3-Step:**
 
 ![alt text](imagess/image9.jpg "Title")
+
 In the above tree, we calculated put price (P), underlying price and
 delta at each node at respective time step. Now, we will show delta
 hedging process by using the path = ${ud}^{2}$ of the tree. The table
