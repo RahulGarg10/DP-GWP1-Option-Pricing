@@ -1,4 +1,7 @@
 # DP-GWP1-Option-Pricing
+
+![alt text](imagess/image1.png "Title")
+
 ## Table - American Option Using Trinomial
 |	|Strike Price	|Call Option Price	|Put Option Price	|Parity|
 |---|------------   |-----------------  |----------------   |------|
