@@ -112,9 +112,9 @@ $$C_{i,j} = e^{- r\Delta t}(p \cdot C_{i + 1,j + 1} + (1 - p) \cdot C_{i + 1,j})
 
 -   For American options, additionally, check for early exercise:
 
-$C_{i,j} = max(C_{i,j},S_{i,j} - K)$ (for call)
+$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ C_{i,j} = max(C_{i,j},S_{i,j} - K)$ (for call)
 
-$P_{i,j} = max(P_{i,j},K - S_{i,j})$ (for put)
+$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ P_{i,j} = max(P_{i,j},K - S_{i,j})$ (for put)
 
 ## **4. Pricing European calls and puts using a binomial tree:**
 
