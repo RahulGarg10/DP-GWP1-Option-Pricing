@@ -1,6 +1,5 @@
 # DP-GWP1-Option-Pricing
 
-![alt text](imagess/image1.png "Title")
 
 ## Table - American Option Using Trinomial
 |	|Strike Price	|Call Option Price	|Put Option Price	|Parity|
@@ -152,8 +151,7 @@ For pricing European calls and put, we first obtained no. of steps, **N
 (see accompanied python file) as shown below. As one can see, the prices
 started converging at N =100.
 
-![https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7IDSTqQydNAZIQbpRQo7iZVKa7qxKaXfwq5iNbSW21oIG2gXaVqn3I-xfgoEmfNiQUIQtDaFv4DQramYaLNv1IzWtlEfpAXPRq_x1G6EqOkCVkkPV7Imvws62sAVIyo41FHMzNA?key=HQnesivpwJkkXNaWeq0FEA](./image1.png){width="7.658016185476815in"
-height="3.0104166666666665in"}
+![alt text](imagess/image1.png "Title")
 
 This number strikes a balance between computational efficiency and
 accuracy. Going beyond N=100, does not improve accuracy but increases
@@ -242,8 +240,7 @@ option price will move by 0.1962 units. So, in our case for increase of
 
 ### **4.5 European Call and Put Prices vs Stock Price Chart:**
 
-![https://lh7-rt.googleusercontent.com/docsz/AD_4nXf5FxSlt6yGd7mFMsUyWMf7GaPMP61T4xeZz5n1tbqVgoT8a-3etV-U5OKuYmTBNP7q4wpWvOtnTeuqsSrLRUF42s-lL7ViSINWUPLV0HwZQkj3FP1w4WHgBRXNd8iwgA1lWf1zxg?key=cnkEwY-FIqUO9BOkGUm89A](./image2.png){width="5.989583333333333in"
-height="2.8028182414698164in"}
+![alt text](imagess/image2.png "Title")
 
 We can see that in above graph that for a given strike price (K =100),
 ATM in this case, as the stock prices increases, the price of European
@@ -343,8 +340,7 @@ the prices of both options increases with increase in volatility.
 
 ### **5.5 American Call and Put vs Stock Price Chart:**
 
-![https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv0XklSNYAtFZY5VRYDEbDSyMe4QCmgrWmHZKjRLhQIwJDYxry9iThG4qp-CZ2Qa-cjajoTHjX9mdbk_3ANNa5hBZ0hD-WxJZdKQVXZWSKDoESfdauTA99uhVwWWPBnVoF48pscg?key=cnkEwY-FIqUO9BOkGUm89A](./image4.png){width="6.789382108486439in"
-height="3.1770833333333335in"}
+![alt text](imagess/image3.png "Title")
 
 Similar to European option, we can see that in above graph that for a
 given strike price (K =100), ATM in this case, as the stock prices
@@ -354,8 +350,7 @@ put option becomes deeper in OTM as the stock price grows.
 
 ### **5.6 European Call and American Call vs Strike Price Chart:**
 
-![https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLZbV2FqEk7OFvorEbIT1C03iGDy4g8Il8JTr-zUdxB_t6k9PnhNf9smMfKqsWxTGkm_LPKYp_dFQqGSx2-p746GmWWlncVA8h3_RPF9qAixOf19jGAN4XtSbeaFEiH3ue-2Zh0g?key=cnkEwY-FIqUO9BOkGUm89A](./image5.png){width="6.864583333333333in"
-height="3.212273622047244in"}
+![alt text](imagess/image4.png "Title")
 
 We can see that in above graph that for a given strike price, the price
 of European call is identical to price of American call. As the strike
@@ -373,8 +368,7 @@ increases. It is because as the put option
 holder, the more the strike price the more the profit margin as the
 stock price stay same or decreases.
 
-![https://lh7-rt.googleusercontent.com/docsz/AD_4nXeoQnFmS6bEEecSl0IEIuwkd0EucF7pFSpksEmKuwPL_yuYNU1pSKXpym_UYd5ez1I0zURqZ447OFDoDVYVA7bxRy7tMktbptRaF0\_\_o6tSkwmUfNZPUg1m6YDG1tCrNCVGFIXH4Q?key=cnkEwY-FIqUO9BOkGUm89A](./image6.png){width="6.927083333333333in"
-height="3.186013779527559in"}
+![alt text](imagess/image5.png "Title")
 
 ## **6. Pricing European options using a trinomial tree:**
 
