@@ -1,4 +1,4 @@
-# DP-GWP1-Option-Pricing
+# Option-Pricing (DP-GWP1)
 
 
 ## **1. Introduction**
